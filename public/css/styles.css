@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/**
+ * CONTENTS
+ *
+ * SETTINGS
+ * Global...............Globally-available variables and config.
+ *
+ * TOOLS
+ * Mixins...............Useful mixins.
+ *
+ * GENERIC
+ * Normalize.css........A level playing field.
+ * Box-sizing...........Better default `box-sizing`.
+ *
+ * BASE
+ * Headings.............H1–H6 styles.
+ *
+ * OBJECTS
+ * Wrappers.............Wrapping and constraining elements.
+ *
+ * COMPONENTS
+ * Page-head............The main page header.
+ * Page-foot............The main page footer.
+ * Buttons..............Button elements.
+ *
+ */
+/*------------------------------------*  Global variables
+\*------------------------------------*/
+/*------------------------------------*  Base
+\*------------------------------------*/
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.5; }
+
+a {
+  color: #c39738; }
+  a:hover, a:focus {
+    color: #dba42e; }
+
+/*------------------------------------*  Wrappers
+\*------------------------------------*/
+/*------------------------------------*  Page-head
+\*------------------------------------*/
+.page-head a {
+  text-decoration: none; }
+
+.page-head ul {
+  padding-left: 0;
+  list-style-type: none;
+  margin-bottom: 0; }
+  .page-head ul li {
+    display: inline; }
+
+.page-head .branding {
+  background-color: #1e1e1e;
+  height: 80px; }
+  .page-head .branding .branding__logo {
+    display: inline-block;
+    line-height: 80px; }
+  .page-head .branding .branding__nav {
+    float: right;
+    line-height: 80px; }
+    .page-head .branding .branding__nav li {
+      margin-left: 12px;
+      margin-right: 12px; }
+      .page-head .branding .branding__nav li:first-child {
+        margin-left: 0; }
+      .page-head .branding .branding__nav li:last-child {
+        margin-right: 0; }
+
+.page-head .branding--inner {
+  padding-left: 65px;
+  padding-right: 65px; }
+
+.page-head .nav--top {
+  line-height: 55px;
+  text-align: center;
+  display: table;
+  width: 100%; }
+  .page-head .nav--top ul li {
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-left: 1px solid #e5e5e5; }
+    .page-head .nav--top ul li:last-child {
+      border-right: 1px solid #e5e5e5; }
+  .page-head .nav--top a {
+    color: #1e1e1e;
+    line-height: 55px;
+    text-transform: uppercase;
+    font-weight: 600; }
+    .page-head .nav--top a:hover, .page-head .nav--top a:focus, .page-head .nav--top a.active {
+      color: #c39738; }
+
+/*------------------------------------*  Buttons
+\*------------------------------------*/
+.btn--leather {
+  background-color: #c39738;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 2px solid #c39738; }
+  .btn--leather:hover {
+    color: #c39738;
+    background-color: #fff;
+    border: 2px solid #c39738; }
+
+.btn--small {
+  font-size: 13px; }

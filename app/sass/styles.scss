@@ -1,6 +1,6 @@
-@import 'mixins/breakpoints';
-@import 'mixins/animations';
-@import 'pages/homepage';
+// @import 'mixins/breakpoints';
+// @import 'mixins/animations';
+// @import 'pages/homepage';
 
 /**
  * CONTENTS
@@ -58,7 +58,7 @@ body {
 
 a {
 	color: $leather;
-	@include transition('all 0.25s linear');
+	// @include transition('all 0.25s linear');
 
 	&:hover,
 	&:focus {
@@ -71,9 +71,9 @@ a {
 \*------------------------------------*/
 
 .container {
-	@include breakpoint(desktop) {
-		width: $containerWidth--desktop;
-	}
+	// @include breakpoint(desktop) {
+	// 	width: $containerWidth--desktop;
+	// }
 }
 
 /*------------------------------------*\
