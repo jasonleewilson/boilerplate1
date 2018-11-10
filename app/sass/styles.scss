@@ -39,6 +39,8 @@ $primaryFont: 'Open Sans', sans-serif;
 $primaryFontSize: 14px;
 
 // colors
+$dark: #102102;
+$red: red;
 $leather: #c39738;
 $lightLeather: #dba42e;
 
@@ -54,6 +56,7 @@ body {
 	font-size: $primaryFontSize;
 	font-weight: normal;
 	line-height: 1.5;
+	background-color: $dark;
 }
 
 a {
@@ -64,6 +67,10 @@ a {
 	&:focus {
 		color: $lightLeather;
 	}
+}
+
+h1, h2 {
+	color: $red;
 }
 
 /*------------------------------------*\

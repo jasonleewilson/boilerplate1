@@ -32,12 +32,16 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: normal;
-  line-height: 1.5; }
+  line-height: 1.5;
+  background-color: #102102; }
 
 a {
   color: #c39738; }
   a:hover, a:focus {
     color: #dba42e; }
+
+h1, h2 {
+  color: red; }
 
 /*------------------------------------*  Wrappers
 \*------------------------------------*/
