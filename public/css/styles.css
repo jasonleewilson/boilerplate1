@@ -29,10 +29,11 @@
 /*------------------------------------*  Base
 \*------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: normal;
-  line-height: 1.5; }
+  line-height: 1.5;
+  background-color: lightsteelblue; }
 
 a {
   color: #c39738; }
@@ -93,6 +94,12 @@ a {
     font-weight: 600; }
     .page-head .nav--top a:hover, .page-head .nav--top a:focus, .page-head .nav--top a.active {
       color: #c39738; }
+
+/*------------------------------------*  Headers
+\*------------------------------------*/
+h1 {
+  font-weight: normal;
+  font-size: 2em; }
 
 /*------------------------------------*  Buttons
 \*------------------------------------*/

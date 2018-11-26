@@ -35,7 +35,7 @@
 $containerWidth--desktop: 1300px;
 $brandingHeight: 80px;
 $navTopHeight: 55px;
-$primaryFont: 'Open Sans', sans-serif;
+$primaryFont: Arial,Helvetica Neue,Helvetica,sans-serif;
 $primaryFontSize: 14px;
 
 // colors
@@ -54,6 +54,7 @@ body {
 	font-size: $primaryFontSize;
 	font-weight: normal;
 	line-height: 1.5;
+	background-color: lightsteelblue;
 }
 
 a {
@@ -163,6 +164,14 @@ a {
 		}
 	}
 
+}
+
+/*------------------------------------*\
+  Headers
+\*------------------------------------*/
+h1 {
+	font-weight: normal;
+	font-size: 2em;
 }
 
 /*------------------------------------*\
